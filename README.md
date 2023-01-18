@@ -20,5 +20,5 @@
     </a>
   </div>
 </div>
-<h3 align="center">Meng Hee Heng Clustering</h3>
-An iplementation of the Mang Hee Heng clustering algorythm in parallel on gpu.
+<h3 align="center">Meng-Hee Heng Clustering</h3>
+An iplementation of the Meng-Hee Heng clustering algorythm in parallel on gpu.
