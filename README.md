@@ -7,7 +7,7 @@
         <img src="https://img.shields.io/badge/C++-11-blue.svg?style=flat&logo=c%2B%2B"/>
     </a>
     <a href="https://developer.nvidia.com/cuda-downloads">
-        <img src="https://img.shields.io/badge/CUDA-nvidia-76B900?style=flat&logo=NVIDIA&logoColor=76B900">
+        <img src="https://img.shields.io/badge/Cuda-nvidia-76B900?style=flat&logo=NVIDIA&logoColor=76B900">
     </a>
     <a href="https://opencv.org/">
         <img src="https://img.shields.io/badge/OpenCV-library-5C3EE8?style=flat&logo=OpenCV&logoColor=FFFFFF"/>
