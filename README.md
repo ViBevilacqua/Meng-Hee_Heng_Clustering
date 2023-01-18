@@ -10,7 +10,7 @@
         <img src="https://img.shields.io/badge/CUDA-nvidia-76B900?style=flat&logo=NVIDIA&logoColor=76B900">
     </a>
     <a href="https://opencv.org/">
-        <img src="https://img.shields.io/badge/OpenCV-library-purple.svg?style=flat&logo=OpenCV&color=5C3EE8"/>
+        <img src="https://img.shields.io/badge/OpenCV-library-5C3EE8?style=flat&logo=OpenCV"/>
     </a>
     <a href="https://github.com/BananaCloud-CC2022-Parthenope/BananaCloud">
         <img src="https://img.shields.io/badge/Contributors-2-blue" alt="Contributors"/>
