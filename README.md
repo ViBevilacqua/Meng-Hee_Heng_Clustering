@@ -12,6 +12,9 @@
     <a href="https://opencv.org/">
         <img src="https://img.shields.io/badge/OpenCV-library-5C3EE8?style=flat&logo=OpenCV"/>
     </a>
+    <a href="https://cmake.org/">
+        <img src="https://img.shields.io/badge/CMake-builder-064F8C?style=flat&logo=CMake&logoColor=FFFFFF"/>
+    </a>
     <a href="https://github.com/BananaCloud-CC2022-Parthenope/BananaCloud">
         <img src="https://img.shields.io/badge/Contributors-2-blue" alt="Contributors"/>
     </a>
