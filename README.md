@@ -10,7 +10,7 @@
         <img src="https://img.shields.io/badge/cuda-nvidia-green.svg">
     </a>
     <a href="https://opencv.org/">
-        <img src="https://img.shields.io/badge/OpenCV-library-blue.svg?style=flat&logo=OpenCV&color=5C3EE8"/>
+        <img src="https://img.shields.io/badge/OpenCV-library?style=flat&logo=OpenCV&color=5C3EE8"/>
     </a>
     <a href="https://github.com/BananaCloud-CC2022-Parthenope/BananaCloud">
         <img src="https://img.shields.io/badge/Contributors-2-blue" alt="Contributors"/>
