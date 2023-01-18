@@ -10,10 +10,10 @@
         <img src="https://img.shields.io/badge/CUDA-nvidia-76B900?style=flat&logo=NVIDIA&logoColor=76B900">
     </a>
     <a href="https://opencv.org/">
-        <img src="https://img.shields.io/badge/OpenCV-library-5C3EE8?style=flat&logo=OpenCV"/>
+        <img src="https://img.shields.io/badge/OpenCV-library-5C3EE8?style=flat&logo=OpenCV&logoColor=FFFFFF"/>
     </a>
     <a href="https://cmake.org/">
-        <img src="https://img.shields.io/badge/CMake-builder-064F8C?style=flat&logo=CMake"/>
+        <img src="https://img.shields.io/badge/CMake-builder-064F8C?style=flat&logo=CMake&logoColor=FFFFFF"/>
     </a>
     <a href="https://github.com/BananaCloud-CC2022-Parthenope/BananaCloud">
         <img src="https://img.shields.io/badge/Contributors-2-blue" alt="Contributors"/>
