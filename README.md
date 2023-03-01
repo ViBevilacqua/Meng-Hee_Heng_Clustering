@@ -30,11 +30,11 @@
     This repository is about our project, an iplementation of the Meng-Hee Heng clustering algorythm on cpu and in parallel on gpu. <br />
     Keep reading to find out how to do it. 
     <br />
-    <a href="https://github.com/BananaCloud-CC2022-Parthenope/BananaCloud"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/ViBevilacqua/Meng-Hee_Heng_Clustering"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     ·
-    <a href="https://github.com/BananaCloud-CC2022-Parthenope/BananaCloud/issues">Report Bug</a>
+    <a href="https://github.com/ViBevilacqua/Meng-Hee_Heng_Clustering/issues">Report Bug</a>
     ·
     <a href="https://github.com/BananaCloud-CC2022-Parthenope/BananaCloud/issues">Request Feature</a>
   </p>
