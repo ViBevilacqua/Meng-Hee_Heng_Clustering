@@ -87,14 +87,32 @@ Commands to run CPU and GPU tests with related results are shown.
      make
   ```
  
-### Test on CPU/GPU
+ Assuming we have an image of Maradona in the **src** folder, these are the commands for clustering on CPU or GPU
+ 
+### Test on CPU
 <summary>To run the algorithm use this command</summary>
 
  ```sh
-  ./main <path_img> <mode 0/1 CPU/GPU>
+  ./main maradona.jpg 0
+ ```
+ 
+ 
+ 
+ ### Test on GPU
+<summary>To run the algorithm use this command</summary>
+
+ ```sh
+  ./main maradona.jpg 1
  ```
 
 ## Results
+
+In the following table it will be possible to observe the results obtained from running the algorithm on an image with different sizes.
+
+|GPU                         |CPU                       |
+|-------------------------------|-----------------------------|
+|<table>  <thead>  <tr>  <th>Size</th>  <th>#Blocks</th> <th>Time</th> <th>#Cluster</th>  </tr>  </thead>  <tbody>  <tr>  <td>80x69</td>  <td>(18,20)</td>  <td>12,43 ms</td> <td>7</td></tr>   <tr> <td>160x138</td>  <td>(35,40)</td>  <td>131,08 ms</td> <td>8</td></tr>  <tr>  <td>320x276</td>  <td>(69,80)</td>  <td>1,96 sec</td> <td>7</td>  </tr> <tr> <td>**640x551**</td>  <td>**(138,160)**</td>  <td>**30,87 sec**</td> <td>**12**</td> </tr> <tr>  <td>1280x1102</td>  <td>(276,320)</td>  <td>8,17 min</td> <td>13</td></tr> </tbody>  </table> | <table>  <thead>  <tr>  <th>Size</th>  <th>Time</th> <th>#Cluster</th>  </tr>  </thead>  <tbody>  <tr>  <td>80x69</td>  <td>3,62 sec</td>  <td>7</td>  </tr>  <tr>  <td>160x138</td>  <td>50,16 sec</td>  <td>8</td>  </tr>  <tr>  <td>320x276</td>  <td>13,63 min</td>  <td>7</td></tr> <tr>  <td>**640x551**</td>  <td>**3,53 hours**</td>  <td>**12**</td></tr> <tr>  <td>1280x1102</td>  <td>N.A.</td>  <td>13</td></tr> </tbody>  </table>      |
+
 
 ## Contributing
 
