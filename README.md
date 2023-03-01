@@ -22,3 +22,30 @@
 </div>
 <h3 align="center">Meng-Hee Heng Clustering</h3>
 An iplementation of the Meng-Hee Heng clustering algorythm in parallel on gpu.
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#creation-and-configuration-of-the-function">Creation and Configuration of the function</a></li>
+      </ul>
+    </li>
+    <li><a href="#metrics">Metrics</a></li>
+    <li><a href="#autoscaling">Autoscaling</a></li>
+    <li><a href="#web-app">Web App</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contacts">Contacts</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
