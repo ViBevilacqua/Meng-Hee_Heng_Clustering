@@ -76,6 +76,7 @@ In this repository there is both the sequential version run on CPU and the paral
 * [OpenCV](https://opencv.org/) - ver. 3.3.1
 * [CMake](https://cmake.org/) - ver. 3.6.2
 
+
 ## Tests
 Commands to run CPU and GPU tests with related results are shown. 
 
@@ -96,14 +97,33 @@ Commands to run CPU and GPU tests with related results are shown.
   ./main maradona.jpg 0
  ```
  
+ Output of the algorithm executed on CPU
+ 
+ <div align="center">
+    <img src="images/MengHeeHeng_CPU_Maradona_640x551.jpg" alt="screen" >
+ </div>
+ 
  
  
  ### Test on GPU
+ 
+ For the execution of this algorithm we used a Quadro K5000 GPU.
+ 
 <summary>To run the algorithm use this command</summary>
 
  ```sh
   ./main maradona.jpg 1
  ```
+
+ Output of the algorithm executed on GPU
+ 
+ <div align="center">
+    <img src="images/MengHeeHeng_imp_GPU_custom_Maradona_640x551.jpg" alt="screen" >
+ </div>
+ 
+ The goal of the algorithm is not to have a better GPU result than the CPU result, but to have execution times in the GPU implementation orders of magnitude less than the CPU execution times.
+ 
+ <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Results
 
@@ -116,14 +136,26 @@ In the following table it will be possible to observe the results obtained from 
 
 ## Contributing
 
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
 ## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
 
 ## Contacts
 
 Antonio Di Marino - University of Naples Parthenope - [email](antonio.dimarino001@studenti.uniparthenope.it) - [LinkedIn](https://www.linkedin.com/in/antonio-di-marino/)
 
 Vincenzo Bevilacqua - University of Naples Parthenope - [email](vincenzo.bevilacqua001@studenti.uniparthenope.it)
-
-## Acknowledgments
 
 <p align="right">(<a href="#top">back to top</a>)</p>
