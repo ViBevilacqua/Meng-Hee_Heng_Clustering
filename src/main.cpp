@@ -17,7 +17,7 @@ int main(int argc, char * argv[])
 
     if(argc < 2)
     {
-        cout << "Sintassi errata, inserire: <./eseguibile> <path_img> <mode 0/1 CPU/GPU>" << endl;
+        cout << "Syntax Error, use: <./exec> <path_img> <mode 0/1 CPU/GPU>" << endl;
         exit(-1);
     }
 
@@ -28,7 +28,7 @@ int main(int argc, char * argv[])
     
 
     if(img.empty()){
-        cerr<<"Caricamento dell'immagine fallito!"<<endl;
+        cerr<<"Load Image Failed!"<<endl;
         exit(1);
     }
 
@@ -43,7 +43,7 @@ int main(int argc, char * argv[])
         MengHeeHeng(img, img_output_MengCPU);
         cuda_timer.stop_timer();
         
-        printf("Tempo esecuzione MangHengHee CPU custom : %f ms\n", cuda_timer.get_time());
+        printf("Execution Time MangHengHee CPU : %f ms\n", cuda_timer.get_time());
 
         imwrite("MengHeeHeng_CPU_" + string(argv[1]), img_output_MengCPU);
 
@@ -64,7 +64,7 @@ int main(int argc, char * argv[])
         cuda_timer.start_timer();
         MengHeeHengGPU(img_host_b, img_host_g, img_host_r, img_output_MengGPU, rows, cols);
         cuda_timer.stop_timer();
-        printf("Tempo esecuzione MangHengHee GPU custom : %f ms\n", cuda_timer.get_time());
+        printf("Execution Time MangHengHee GPU : %f ms\n", cuda_timer.get_time());
 
         imwrite("MengHeeHeng_imp_GPU_custom_" + string(argv[1]), img_output_MengGPU);
 
@@ -75,7 +75,7 @@ int main(int argc, char * argv[])
     }
 
 
-    cout << "Fine"<<endl;
+    cout << "End"<<endl;
     return 0;
 }
 
@@ -105,11 +105,11 @@ void updateCluster(Mat img, Mat &idCluster, vector<vector<Vec3b> > &cluster, vec
     {
         med = mean(cluster[i]);
         Scalar sum = cv::sum(cluster[i]);
-        cout << "[CPU] Valori numeratori del cluster " << i << " B: " << sum[0] << " G: " << sum[1] << " R: " << sum[2] << endl;
+        cout << "[CPU] Cluster numerator values " << i << " B: " << sum[0] << " G: " << sum[1] << " R: " << sum[2] << endl;
         cout << "[CPU] Denominator: " << cluster[i].size() << endl;
 
         media[i] = Vec3b(med[0], med[1], med[2]);
-        cout << "[CPU] Valori Centroidi del cluster " << i << " B: " << (int)media[i][0] << " G: " << (int)media[i][1] << " R: " << (int)media[i][2] << endl;
+        cout << "[CPU] Centroid values of the cluster " << i << " B: " << (int)media[i][0] << " G: " << (int)media[i][1] << " R: " << (int)media[i][2] << endl;
     }
 }
 
@@ -145,9 +145,9 @@ void MengHeeHeng(Mat img, Mat &output)
                     }
                 }
 
-    cout << "[CPU] Le medie trovate nei primi due centroidi sono media[0]= " << media[0] << " media[1]= " << media[1] << endl;
-    cout << "[CPU] La maxDist = " << maxDist << endl;
-    cout << "[CPU] Punto A i = " << i_max << " j = " << j_max << " k = " << k_max << " w = " << w_max  << endl;
+    cout << "[CPU] The averages found in the first two centroids are media[0]= " << media[0] << " media[1]= " << media[1] << endl;
+    cout << "[CPU] maxDist = " << maxDist << endl;
+    cout << "[CPU] Point A i = " << i_max << " j = " << j_max << " k = " << k_max << " w = " << w_max  << endl;
     //2. Clustering per prossimita', cioe' raggruppare tutti i pixel dell'immagine nel cluster con distanza minima (cluster più vicino)
     updateCluster(img, idCluster, cluster, media);
 
@@ -169,7 +169,7 @@ void MengHeeHeng(Mat img, Mat &output)
 
         uscita = true; //da togliere alla fine
 
-        cout << "[CPU] probabile nuovo centroide d: " << d << " x:" << x << endl;
+        cout << "[CPU] probable new centroid d: " << d << " x:" << x << endl;
 
         
         vector <double> distanzaCoppie;
@@ -208,7 +208,7 @@ void MengHeeHeng(Mat img, Mat &output)
         for(int j = 0; j < img. cols; j++)
           output.at<Vec3b>(i,j) = media[idCluster.at<uchar>(i,j)];
 
-    cout << "Numero di cluster: " << cluster.size() << endl;
+    cout << "Number of cluster: " << cluster.size() << endl;
     
 }
 
