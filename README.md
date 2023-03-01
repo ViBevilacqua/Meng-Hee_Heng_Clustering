@@ -36,7 +36,7 @@
     ·
     <a href="https://github.com/ViBevilacqua/Meng-Hee_Heng_Clustering/issues">Report Bug</a>
     ·
-    <a href="https://github.com/BananaCloud-CC2022-Parthenope/BananaCloud/issues">Request Feature</a>
+    <a href="https://github.com/ViBevilacqua/Meng-Hee_Heng_Clustering/issues">Request Feature</a>
   </p>
 </div>
 
