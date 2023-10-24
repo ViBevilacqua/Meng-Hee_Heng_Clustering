@@ -16,7 +16,7 @@
     <a href="https://cmake.org/">
         <img src="https://img.shields.io/badge/CMake-3.6.2-064F8C?style=flat&logo=CMake&logoColor=FFFFFF"/>
     </a>
-    <a href="https://github.com/BananaCloud-CC2022-Parthenope/BananaCloud">
+    <a href="https://github.com/ViBevilacqua/Meng-Hee_Heng_Clustering">
         <img src="https://img.shields.io/badge/Contributors-2-blue" alt="Contributors"/>
     </a>
   </div>
