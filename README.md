@@ -15,7 +15,7 @@
 
 
   <p align="center">
-    This repository is about our project, an iplementation of the Meng-Hee Heng clustering algorythm on cpu and in parallel on gpu. <br />
+    This repository is about our project, an implementation of the Meng-Hee Heng clustering algorythm on cpu and in parallel on gpu. <br />
     Keep reading to find out how to do it. 
     <br />
     <a href="https://github.com/ViBevilacqua/Meng-Hee_Heng_Clustering"><strong>Explore the docs »</strong></a>
